@@ -1,5 +1,2 @@
-Welcome to cisNOTfun Shell, an elegantly designed command-line interface (CLI) that champions simplicity and efficiency. Developed collaboratively by Omar Ouali (MiltoniaSpectabilis) & Omar Assoudi (assoudix), this powerful shell brings together the best of both worlds to provide users with an intuitive and enjoyable experience. cisNOTfun Shell is meticulously crafted to cater to users of all skill levels, offering a user-friendly environment that simplifies the art of interacting with your operating system through commands.
-
-cisNOTfun Shell revolves around the principle of intuitive command execution. With an emphasis on user-friendliness, executing commands is as effortless as it gets. Simply type in a command and press Enter to see it swiftly come to life. The shell diligently captures and presents real-time feedback on standard input and output, ensuring a seamless interaction with your system.
-
-When you launch cisNOTfun Shell, you'll immediately notice the smoothness with which your commands are interpreted and executed. The elegant interface encourages exploration, empowering both novice and experienced users to interact with their operating systems confidently. Whether you're navigating files, managing processes, or configuring system settings, cisNOTfun Shell makes the process feel natural and uncluttered.
+# simple_shell
+My UNIX shell code after deferral #2 due to technical issues
