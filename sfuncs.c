@@ -45,13 +45,6 @@ char *read_input(void)
 	if (cmd[line_length - 1] == '\n')
 		cmd[line_length - 1] = '\0';
 
-	/*commands = tokenize_input(cmd);
-
-	free(cmd);
-
-	cmd = commands[0];
-	free(commands);*/
-
 	return (cmd);
 }
 
