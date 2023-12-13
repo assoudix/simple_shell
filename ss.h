@@ -47,5 +47,5 @@ int handle_env_cmd(char *cmd);
 void print_exec_error(char *cmd, const char *prog_name);
 char *get_env_variable(const char *name);
 
-#endif /* SHELL_H */
+#endif /* SS_H */
 

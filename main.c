@@ -22,6 +22,13 @@ int main(int argc, char *argv[])
 			user_input = read_input();
 			if (user_input == NULL)
 				break;
+			if (!handle_exit_cmd(user_input, &exit_status))
+			{
+				free(user_input);
+				break;
+			}
+			if (!handle_env_cmd(user_input))
+				continue;
 			exec_cmd(user_input, &exit_status, prog_name);
 		}
 	}
@@ -29,6 +36,13 @@ int main(int argc, char *argv[])
 	{
 		while ((user_input = read_input()) != NULL)
 		{
+			if (!handle_exit_cmd(user_input, &exit_status))
+			{
+				free(user_input);
+				break;
+			}
+			if (!handle_env_cmd(user_input))
+				continue;
 			exec_cmd(user_input, &exit_status, prog_name);
 		}
 	}
