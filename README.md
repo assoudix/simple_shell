@@ -13,11 +13,11 @@ This is a simple shell implementation written in C. It includes basic functional
 ## Installation
 Clone the repository to your local machine:
 
-git clone https://github.com/omarassoudi/simple-shell.git
+git clone https://github.com/assoudix/simple-shell.git
 
 Compile the program using gcc:
 
-gcc -o shell shell.c
+gcc *.c -o shell
 
 ## Usage
 Run the shell program:
